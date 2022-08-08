@@ -1,0 +1,62 @@
+.cabecalho {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+}
+
+.cabecalho__imagem {
+    width: 10%;
+    
+}
+
+.cabecalho__navegacao {
+    margin: 0.5em auto;
+}
+
+.cabecalho__lista {
+    margin: 0 auto;
+}
+
+.cabecalho__lista li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.cabecalho__lista li a:hover {
+    color: #9b7659;
+}
+
+@media screen and (min-width: 740px) {
+    .cabecalho {
+        background-color: transparent;
+        width: 100%;
+        min-width: 1300px;
+        display: absolute;
+    }
+
+    .cabecalho__imagem {
+        position: relative;
+        width: 5%;
+        top: 15px;
+        left: -601px;
+    }
+
+    .cabecalho__lista {
+        padding: 3px;
+        background-image: url(../img/egipicio.png);
+        background-size: 3%;
+        display: flex;
+        background-color: #ffffff;
+        font-size: 2em;
+    }   
+
+    .cabecalho__lista li a {
+        margin-right: 20px;
+        justify-content: flex-start;
+        font-size: 23px;
+        background-color: #ffffff;
+    }
+}

@@ -1,0 +1,50 @@
+.rodape {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+.rodape__titulo {
+    font-size: 1.3em;
+    margin: 1em auto;
+}
+.rodape__imagem {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.rodape__paragrafo {
+    margin-bottom: 1em;
+}
+
+.rodape__link {
+    margin: 0.5em 1em 0.5em 1em;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.rodape__link:hover {
+    color: green;
+}
+
+@media  screen and (min-width: 740px) {
+    .rodape {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        margin-top: -276px;
+        
+    }
+
+    .rodape__imagem {
+        width: 13%;
+    }
+
+    .rodape__link {
+        margin-bottom: 1em;
+    }
+}
