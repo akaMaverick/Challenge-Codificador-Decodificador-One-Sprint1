@@ -37,7 +37,7 @@
         width: 100%;
         height: auto;
         margin-top: -276px;
-        
+        overflow: hidden;
     }
 
     .rodape__imagem {
