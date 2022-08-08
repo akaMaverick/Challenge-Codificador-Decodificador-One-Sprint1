@@ -30,4 +30,5 @@ de trabalho.</p>
 <li>Imagem rei.png de <a href="https://pixabay.com/pt/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=161521">OpenClipart-Vectors</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=161521">Pixabay</a></li>
 <li>Imagem egipicio.png de <a href="https://pixabay.com/pt/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=311457">Clker-Free-Vector-Images</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=311457">Pixabay</a></li>
 <li>Imagem fundo.jpg fornecida pelo programa One</li>
+<li>Imagem favicon.ico é um projeto open source do <a href="https://twemoji.twitter.com/">Twemoji</a>. Os gráficos são copyright de 2020 do Twitter Inc. e outros contribuidores. Os gráficos são licensiados sobre a norma <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>. Você deveria revisar antes de usar no seu projeto.</li>
 <ol>
