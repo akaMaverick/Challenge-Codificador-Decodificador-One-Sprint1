@@ -35,6 +35,7 @@
         width: 100%;
         min-width: 1290px;
         display: absolute;
+        overflow: hidden;
     }
 
     .cabecalho__imagem {
