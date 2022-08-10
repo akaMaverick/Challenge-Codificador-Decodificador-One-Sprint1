@@ -33,8 +33,10 @@ function decodifica () {
 }
 
 function copiar() {
-    var copia = document.getElementById("resposta");
+    let copia = document.getElementById("resposta");
+    let res = document.getElementById("resposta");
     copia.select();
     navigator.clipboard.writeText(copia.innerHTML)
     alert("Arquivo copiado com sucesso!")
+    res.innerHTML = " ";
 }
