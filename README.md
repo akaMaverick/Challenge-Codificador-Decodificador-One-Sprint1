@@ -23,7 +23,8 @@ o método .select() para copiar todo o elemento e .navigator juntamente com o .c
 de trabalho.</p>
 </li>
 </ul>
-
+<h2>Link do protótipo no GitHub Pages</h2>
+<a href="https://akamaverick.github.io/Challenge-Codificador-Decodificador-One-Sprint1/" target="_blank">🌟 (De)codificador</a>
 <h2>Imagens utilizadas nesta Challenge</h2>
 <ol>
 <li>Imagem texto.jpg de <a href="https://pixabay.com/pt/users/tumtac-4527816/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2067823">Tanapat Jangtrakul</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2067823">Pixabay</a></li>
