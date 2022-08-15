@@ -3,6 +3,12 @@
 <h1>Descrição do projeto</h1>
 
 <p>Primeira Challenge do programa One + Alura, que visa projetar um codificador/decodificador utilizando a linguagem JavaScript</p>
+<p>Requisitos do projeto são substituir as vogais pelas letras disponibilidas pela One que seriam: </p>
+<p> a = ai</ṕ>
+<p> e = enter</ṕ>
+<p> i = imes</ṕ>
+<p> o = ober</ṕ>
+<p> u = ufat</ṕ>
 
 <h2>Funcionalidade do projeto</h2>
 
