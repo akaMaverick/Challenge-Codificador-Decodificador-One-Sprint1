@@ -3,6 +3,12 @@
 <h1>Descrição do projeto</h1>
 
 <p>Primeira Challenge do programa One + Alura, que visa projetar um codificador/decodificador utilizando a linguagem JavaScript</p>
+<p>Requisitos do projeto são substituir as vogais pelas letras disponibilidas pela One que seriam: </p>
+<p> a = ai</ṕ>
+<p> e = enter</ṕ>
+<p> i = imes</ṕ>
+<p> o = ober</ṕ>
+<p> u = ufat</ṕ>
 
 <h2>Funcionalidade do projeto</h2>
 
@@ -23,7 +29,8 @@ o método .select() para copiar todo o elemento e .navigator juntamente com o .c
 de trabalho.</p>
 </li>
 </ul>
-
+<h2>Link do protótipo no GitHub Pages</h2>
+<a href="https://akamaverick.github.io/Challenge-Codificador-Decodificador-One-Sprint1/" target="_blank">🌟 (De)codificador</a>
 <h2>Imagens utilizadas nesta Challenge</h2>
 <ol>
 <li>Imagem texto.jpg de <a href="https://pixabay.com/pt/users/tumtac-4527816/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2067823">Tanapat Jangtrakul</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2067823">Pixabay</a></li>
