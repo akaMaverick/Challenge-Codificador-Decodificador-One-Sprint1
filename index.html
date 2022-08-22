@@ -25,11 +25,15 @@
     </header>
     <main>
         <h2 class="titulo__principal">codificador</h2>
-        <textarea class="mensagem" name="" id="mensagem" cols="5" rows="5" placeholder="Digite um texto aqui!"></textarea>
-        <button class="botao__principal" onclick="codifica()">Codificar</button>
-        <button class="botao__principal" onclick="decodifica()">Decodificar</button>
-        <textarea id="resposta" class="resposta" name="" id="" cols="5" rows="5"></textarea>
-        <button class="botao__resposta" onclick="copiar()">Copiar</button>
+        <section class="mensagem__principal">
+            <textarea class="mensagem" name="" id="mensagem" cols="5" rows="5" placeholder="Digite um texto aqui!"></textarea>
+            <button class="botao__principal" onclick="codifica()">Codificar</button>
+            <button class="botao__principal" onclick="decodifica()">Decodificar</button>
+        </section>
+        <section class="resposta__principal">
+            <textarea id="resposta" class="resposta" name="" id="" cols="5" rows="5"></textarea>
+            <button class="botao__resposta" onclick="copiar()">Copiar</button>
+        </section>
     </main>
     <footer id="rodape" class="rodape">
         <h3 class="rodape__titulo">Marlon Maverick</h3>

@@ -11,7 +11,7 @@
     margin: 1em auto;
 }
 .rodape__imagem {
-    width: 50%;
+    width: 30%;
     border-radius: 50%;
     margin-bottom: 1em;
 }
@@ -31,20 +31,23 @@
     color: green;
 }
 
-@media  screen and (min-width: 740px) {
-    .rodape {
-        position: absolute;
-        width: 100%;
-        height: auto;
-        margin-top: -276px;
-        overflow: hidden;
-    }
-
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
     .rodape__imagem {
-        width: 13%;
+        width: 15%;
     }
 
-    .rodape__link {
-        margin-bottom: 1em;
+    .rodape__paragrafo {
+        margin-bottom: 1.5em;
+    }
+    
+}
+
+@media only screen and (min-width: 1224px) and (max-width: 1590px) {
+    .rodape {
+        height: 450px;
+        overflow-y: hidden;
+    }
+    .rodape__imagem {
+        width: 15%;
     }
 }

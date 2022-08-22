@@ -1,13 +1,11 @@
 .cabecalho {
     background-color: #ffffff;
-    width: 100%;
-    max-width: 739px;
     text-align: center;
+    width: 100%;
 }
 
 .cabecalho__imagem {
-    width: 10%;
-    
+    width: 10%;  
 }
 
 .cabecalho__navegacao {
@@ -19,45 +17,53 @@
 }
 
 .cabecalho__lista li a {
-    text-decoration: none;
     color: black;
     font-size: 1em;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .cabecalho__lista li a:hover {
     color: #9b7659;
 }
 
-@media screen and (min-width: 740px) {
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    .cabecalho {
+        padding-bottom: 10px;
+    }
+
+    .cabecalho__lista li a {
+        font-size: 2em;
+    }
+
+}
+
+@media only screen and (min-width: 1224px) and (max-width: 1590px) {
     .cabecalho {
         background-color: transparent;
-        width: 100%;
-        min-width: 1290px;
-        display: absolute;
         overflow: hidden;
     }
 
     .cabecalho__imagem {
-        position: relative;
-        width: 5%;
-        top: 15px;
         left: -601px;
+        position: relative;
+        top: 15px;
+        width: 5%;
     }
 
     .cabecalho__lista {
-        padding: 3px;
+        background-color: #ffffff;
         background-image: url(../img/egipicio.png);
         background-size: 3%;
         display: flex;
-        background-color: #ffffff;
         font-size: 2em;
+        padding: 3px;
     }   
 
     .cabecalho__lista li a {
-        margin-right: 20px;
-        justify-content: flex-start;
-        font-size: 23px;
         background-color: #ffffff;
+        font-size: 23px;
+        justify-content: flex-start;
+        margin-right: 20px;   
     }
 }

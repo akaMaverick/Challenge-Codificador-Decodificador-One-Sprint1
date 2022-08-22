@@ -1,5 +1,4 @@
 body {
-    max-width: 739px;
     background-image: url(../img/texto.jpg);
 }
 
@@ -11,10 +10,10 @@ main {
 
 .titulo__principal {
     background-color: #ffffff;
-    padding: 10px;
     border-radius: 20%;
     font-size: 1.5em;
     margin: 0.5em auto;
+    padding: 10px;
 }
 
 .titulo__principal::before {
@@ -22,91 +21,132 @@ main {
     font-style: italic;
 }
 
+.mensagem__principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.resposta__principal {
+    display: flex;
+    flex-direction: column;
+}
+
 .mensagem {
-    width: 200px;
     height: 100px;
     margin: 0.5em auto;
+    width: 200px;
 }
 
 .resposta {
-    width: 200px;
     height: 100px;
     margin: 0.5em auto;
+    width: 200px;
 }
 
 .botao__principal {
-    width: 150px;
-    height: 50px;
-    margin: 0.5em auto;
     border: 2px solid black;
     border-radius: 10%;
     font-weight: bold;
+    height: 50px;
+    margin: 0.5em auto;
+    width: 150px;
+}
+
+.botao__principal:hover {
+    background-color: #9b7659;
 }
 
 .botao__resposta {
-    width: 150px;
-    height: 50px;
-    margin: 0.5em auto;
-    margin-bottom: 1.3em;
     border: 2px solid black;
     border-radius: 10%;
     font-weight: bold;
+    margin: 0.5em auto;
+    margin-bottom: 1.3em;
+    width: 150px;
+    height: 50px;
 }
 
-@media  screen and (min-width: 740px) {
-    body {
-        width: 100%;
-        height: auto;
+.botao__resposta:hover {
+    background-color: #9b7659;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    main {
+        flex-wrap: wrap;
+    }
+
+    .mensagem {
+        width: 400px;
+        height: 190px;
+    }
+    
+    .mensagem::placeholder {
+        font-size: 1.5em;
+    }
+
+    .resposta {
+        background-image: url(../img/fundo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 35%;
+        width: 400px;
+        height: 190px;
     }
 
     .titulo__principal {
-        margin: 0.5em 0 0.5em 15em;
+        padding: 15px;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 1224px) and (max-width: 1590px) {
+    .titulo__principal {
+        margin: 1.5em 0 1.5em 15em;
         padding: 10px 0px 10px 0px;
         width: 40%;
     }
 
     main {
         display: inline-block;
-        text-align: center;
         height: 700px;
+        text-align: center;
+        width: auto;
     }
 
     .mensagem {
-        width: 640px;
         height: 400px;
-        text-align: center;
         margin: 0px 0px 0px 200px;
+        text-align: center;
+        width: 640px;
     }
 
     .resposta {
-        width: 200px;
-        height: 400px;
-        position: relative;
-        left: 469px;
-        top: -416px;
         background-image: url(../img/fundo.png);
         background-position: center;
+        height: 400px;
+        left: 556px;
+        position: relative;
+        top: -539px;
+        width: 200px;
     }
 
     .botao__principal {
-        position: relative;
+        left: -327px;
         margin-right: 1em;
-        top: -376px;
-        left: 281px;
-    }
-
-    .botao__principal:hover {
-        background-color: #9b7659;
-    }
-    
-    .botao__resposta {
         position: relative;
-        top: -376px;
-        left: 291px;
+        top: 8px;
     }
 
-    .botao__resposta:hover {
-        background-color: #9b7659;
+    .botao__principal:last-child {
+        left: -165px;
+        position: relative;
+        top: -55px;    
+    }
+
+    .botao__resposta {
+        left: 553px;
+        position: relative;
+        top: -537px;
     }
 
 }
